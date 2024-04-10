@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+    padding: 20px 0;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+section img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+#name {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#city {
+    margin-top: 10px;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+div p {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+nav ul li:hover a {
+    color: hsl(0, 0%, 8%);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; 
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+footer a:hover {
+    color: hsl(75, 94%, 57%);
+}
+
+
+/* Media Queries */
+@media (max-width: 320px) {
+    section {
+        width: 95%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    section {
+        width: 90%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    section {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    section {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    section {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    section {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+    section {
+        width: 20%;
+    }
+}
+
+/* Media Query para telas maiores que 1440px até 2560px */
+@media (min-width: 1601px) and (max-width: 2560px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    section {
+        width: 15%;
+    }
+}
+
